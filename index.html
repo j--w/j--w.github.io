@@ -1,1 +1,487 @@
-<!DOCTYPE html><html lang="en"><head><title>Jim Wright | Canadian Web/Software Developer</title><meta name="description" content="Web Developer specializing in Angular, Node, SASS, HTML5, CSS3 in Alberta, Canada."><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Josefin+Sans|Amatic+SC" type="text/css"><link rel="stylesheet" href="/css/main.css" type="text/css"></head><body><div class="container"><section><header><h1>JIMBO.IO</h1></header><p>My name is Jim Wright, I live in Alberta, Canada.</p><p>I work as a senior full stack developer at <a href="https://anow.com">Anow</a>, a SaaS to make real estate appraisers lives easier. At Anow, I use <a href="https://angularjs.org/">Angular</a>, <a href="https://jquery.com/">jQuery</a>, <a href="https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx">C#</a>, <a href="http://gulpjs.com/">Gulp</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.</p><p>My last job was as a front-end developer at <a href="http://www.ea.com/">Electronic Arts</a>.</p><p>At EA, I was a primary developer on the <a href="http://dragonage.com">Dragon Age</a> website project. I also worked on the <a href="https://easportsfifaworld.com">Fifa World</a> website, the <a href="http://www.thesims.com/the-sims-4">Sims 4</a> website and others. I used <a href="https://angularjs.org/">Angular</a>, <a href="http://gruntjs.com/">Grunt</a>, <a href="http://sass-lang.com">SASS</a>, <a href="http://compass-style.org/">Compass</a>, <a href="http://foundation.zurb.com/">Foundation</a>, <a href="http://symfony.com/">Symfony</a> and <a href="https://grails.org/">Grails</a>.</p><p>My favourite technologies to use are <a href="https://angularjs.org/">Angular</a>, <a href="http://sass-lang.com">SASS</a> and <a href="https://nodejs.org/">NodeJS</a>.</p><p>I also like brewing beer, bicycles and fly fishing.</p><p>If you'd like to chat, you can reach me at <a href="mailto:jw@jimbo.io">jw@jimbo.io</a> or add me to <a href="https://www.linkedin.com/in/jimwca">LinkedIn</a>.</p></section></div></body></html>
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>James Wright</title>
+
+	<style>
+	body {
+	background: #fff;
+	font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	margin: 0 0;
+	margin-bottom: 100px;
+}
+em {
+	color: #999;
+}
+p {
+	line-height: 1.6;
+	font-size: 90%;
+}
+
+a {
+	color: #2C85B1;
+	text-decoration: none;
+	font-weight: 400;
+}
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin: 1em 0 2em;
+}
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+#resume {
+	margin: 2em 2em 2em 2.5em;
+	max-width: 760px;
+}
+
+/* Resume heading */
+.heading header { 
+
+}
+
+.heading header h1 {
+	font-size: 180%;
+	margin: 0.5em 0;
+	font-weight: 600;
+}
+
+.heading header h2 {
+	font-size: 140%;
+	margin: 0;
+	font-weight: 400;
+}
+
+.heading header .contact .detail {
+	margin: 0 1em 0 0;
+}
+
+.profile {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+.profile strong,
+.profile span {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+/* section / line breaks */
+section h2 {
+	font-size: 140%;
+	margin: 0 0 1em;
+	text-transform: uppercase;
+	color: #BC1B39;
+	font-weight: 400;
+}
+
+/* Experience items */
+.item {
+	margin: 0 0 1em;
+	padding: 0 0 1em;
+	border-bottom: 1px solid #F2EBEC;
+}
+
+.item:last-child {
+	border-bottom: none;
+}
+
+
+.item header h3 {
+	margin: 0.2em 1em 0.2em 0;
+	display: inline-block;
+	font-weight: 600;
+}
+
+.item header a {
+	display: inline-block;
+}
+
+.item .position {
+	font-weight: 600;
+	font-size: 100%;
+	margin: 0.2em 1em 0.2em 0;
+}
+
+.item .startDate,
+.item .endDate {
+	color: #6B6B6B;
+}
+
+.item .highlights {
+	list-style: square;
+	font-size: 90%;
+}
+
+/* skills */
+#skills .item {
+	margin: 0.5em 0;
+	padding: 0 0 0.5em;
+	font-size: 90%;
+}
+
+#skills .item .name {
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0 1em 0 0;
+	width: 23%;
+	vertical-align: top;
+}
+
+#skills .item .keywords {
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+
+/* education */
+#education .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.5%;
+	border-bottom: 0;
+}
+
+
+
+	</style>
+	<style media="print">
+		body { font-size: 12px; }
+	</style>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+
+	<section class="heading">
+		<header>
+			<h1>James Wright</h1>
+			<div class="contact">
+				<span class="detail">
+					<a href="mailto:jw@jimbo.io">jw@jimbo.io</a>
+				</span>
+				<span class="detail">
+					+447719973021
+				</span>
+			</div>
+		</header>
+
+
+		<p><p>Software Developer with more than 13 years of experience developing effective user experiences and the systems to enable them. Strong focus on the intersection of Product, Design and Engineering.</p></p>
+
+
+	</section>
+
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Software Development
+			</div>
+			<div class="keywords">
+					HTML5,
+					CSS3,
+					Javascript,
+					Vue,
+					Angular 1 - 8,
+					Node.js,
+					Mocha/Chai/Sinon,
+					Jasmine/Karma,
+					Jest,
+					AWS,
+					Firebase
+			</div>
+		</div>
+	</section>
+
+	<section class="experience">
+		<h2>Experience</h2>
+		<section class="item">
+			<header>
+					<h3 class="name">Masabi</h3>
+			</header>
+			<span class="position">
+				Lead Frontend Engineer
+			</span>
+
+			<span class="startDate">
+				Nov 2019
+			</span>
+			<span class="endDate">
+				- Present
+			</span>
+
+			<div class="summary">
+				<p><p>Masabi provides a fare collection platform to public transit agencies around the world.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Provide voice for 5 frontend engineers across 2 teams as a member of the tech strategy board</li>
+				<li>Lead hiring drive to fill several open frontend roles</li>
+				<li>De-risk UI milestones and projects that are in the critical path for major platform changes</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Masabi</h3>
+			</header>
+			<span class="position">
+				Senior Frontend Engineer
+			</span>
+
+			<span class="startDate">
+				Oct 2016
+			</span>
+			<span class="endDate">
+				- Nov 2019
+			</span>
+
+			<ul class="highlights">
+				<li>Developed an analytics/visualisation UI, realtime telemetry and device health dashboard, bulk records processing interfaces and many more features</li>
+				<li>Lead migration of product from AngularJS to Vue without needing any roadmap downtime</li>
+				<li>Worked closely with the design team to build a design system and component library to make prototyping and iteration faster and more consistent</li>
+				<li>Coach an intermediate frontend engineer and QA analyst that is pursuing becoming a frontend engineer</li>
+				<li>All of the above happened while the company grew from serving a handful of transport agencies to more than 70 without needing to increase the headcount until this year</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Freelance</h3>
+			</header>
+
+			<span class="startDate">
+				Jan 2006
+			</span>
+			<span class="endDate">
+				- Present
+			</span>
+
+			<div class="summary">
+				<p><p>I always seem to come across unique opportunities to try new technologies and get paid to do it</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Create several informational/utility mobile apps for provincial Midwife organisations to assist in the diagnosis and treatment of their clients</li>
+				<li>Create several mobile and progressive web apps for interactive real estate development showroom displays</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">ACL Services</h3>
+			</header>
+			<span class="position">
+				Senior UX Developer
+			</span>
+
+			<span class="startDate">
+				Mar 2016
+			</span>
+			<span class="endDate">
+				- Sep 2016
+			</span>
+
+			<div class="summary">
+				<p><p>ACL Services (now Galvanize) develops a SaaS platform for the governance, risk management and compliance industry.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Developed configurable KPI visualisation and alerting functionality in the analytics product</li>
+				<li>Worked closely with the design team on the companies internal design system and component library</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Anow</h3>
+			</header>
+			<span class="position">
+				Senior Full Stack Software Developer
+			</span>
+
+			<span class="startDate">
+				May 2014
+			</span>
+			<span class="endDate">
+				- Mar 2016
+			</span>
+
+			<div class="summary">
+				<p><p>Anow is a SaaS platform that provides an all-in-one solution for real estate appraisal/valuation businesses.</p></p>
+			</div>
+			<ul class="highlights">
+				<li>Developed CRM, invoicing, notifications, booking management features using AngularJS and .NET</li>
+				<li>Introduced agile methodologies, automated builds, git workflow, code reviews etc... to the development team</li>
+				<li>Lead hiring of 2 additional developers as the company went from launch to first few hundred thousand in revenue</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Electronic Arts</h3>
+			</header>
+			<span class="position">
+				Frontend Software Developer (Contract)
+			</span>
+
+			<span class="startDate">
+				May 2013
+			</span>
+			<span class="endDate">
+				- May 2014
+			</span>
+
+			<ul class="highlights">
+				<li>Built highly interactive Dragon Age franchise website which included a custom navigable game world map, user comments, character bios and many other features</li>
+				<li>Worked on several other franchise websites including Dawn Gate, Fifa World, Sims and internal productivity tools</li>
+				<li>Introduced automated performance testing, increased unit test coverage and ran weekly cross-team frontend engineering meeting</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">ISL</h3>
+			</header>
+			<span class="position">
+				Web Developer
+			</span>
+
+			<span class="startDate">
+				Mar 2012
+			</span>
+			<span class="endDate">
+				- May 2013
+			</span>
+
+			<ul class="highlights">
+				<li>Built websites many small to medium-sized businesses using HTML5, CSS3 and jQuery and in-house content management system</li>
+				<li>Developed photo gallery feature for the in-house CMS product</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Blast Radius</h3>
+			</header>
+			<span class="position">
+				Interface Developer
+			</span>
+
+			<span class="startDate">
+				Oct 2010
+			</span>
+			<span class="endDate">
+				- Nov 2011
+			</span>
+
+			<ul class="highlights">
+				<li>Developed mobile web UI for Bacardi True Originals which was a sponsored social network for bartenders based around a series of competitions</li>
+				<li>Maintained and updated content features for the Nike Golf website</li>
+				<li>Built boilerplate template to create highly interactive websites for Jordan brand shoe releases along with the websites using this template, several of these won FWA awards</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Venture Communications</h3>
+			</header>
+			<span class="position">
+				Web Developer
+			</span>
+
+			<span class="startDate">
+				Feb 2008
+			</span>
+			<span class="endDate">
+				- Jun 2009
+			</span>
+
+			<ul class="highlights">
+				<li>Developed several websites using HTML, CSS, PHP, Flash and Javascript for companies of varied size</li>
+			</ul>
+		</section>
+		<section class="item">
+			<header>
+					<h3 class="name">Ground Level Design/Rare Method</h3>
+			</header>
+			<span class="position">
+				Flash Developer
+			</span>
+
+			<span class="startDate">
+				May 2006
+			</span>
+			<span class="endDate">
+				- Feb 2008
+			</span>
+
+			<ul class="highlights">
+				<li>Developed several websites, applications and in-browser games using Flash and PHP</li>
+			</ul>
+		</section>
+	</section>
+
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			<header>
+					<h3 class="name">Southern Alberta Institute of Technology</h3>
+			</header>
+
+			<div class="dates">
+				<span class="startDate">
+					Aug 2004
+				</span>
+				<span class="endDate">
+					- Apr 2006
+				</span>
+			</div>
+
+			<div class="qualification">
+				<span class="studyType">
+					New Media Production and Design
+				</span>
+
+
+			</div>
+
+		</div>
+	</section>
+	
+	
+
+
+	<section id="interests">
+		<h2>Interests</h2>
+		<div class="item">
+			<div class="name">
+				Ongoing Maker Projects
+			</div>
+			<ul class="keywords">
+				<li>Homebuilt 3D printer</li>
+				<li>Automatic cocktail dispensing machine</li>
+				<li>Automated tiny single vessel home beer brewery</li>
+				<li>General electronics and microcontroller projects</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Outdoors
+			</div>
+			<ul class="keywords">
+				<li>Hiking</li>
+				<li>Camping</li>
+				<li>Fly Fishing</li>
+			</ul>
+		</div>
+	</section>
+	
+	
+	</div>
+	
+	</body>
+</html>

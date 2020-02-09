@@ -1,0 +1,163 @@
+{
+  "basics": {
+    "name": "James Wright",
+    "label": "Software Developer",
+    "picture": "",
+    "email": "jw@jimbo.io",
+    "phone": "+447719973021",
+    "summary": "Software Developer with more than 13 years of experience developing effective user experiences and the systems to enable them. Strong focus on the intersection of Product, Design and Engineering."
+  },
+  "work": [
+    {
+      "company": "Masabi",
+      "position": "Lead Frontend Engineer",
+      "startDate": "2019-11-01",
+      "summary": "Masabi provides a fare collection platform to public transit agencies around the world.",
+      "highlights": [
+        "Provide voice for 5 frontend engineers across 2 teams as a member of the tech strategy board",
+        "Lead hiring drive to fill several open frontend roles",
+        "De-risk UI milestones and projects that are in the critical path for major platform changes"
+      ]
+    },
+    {
+      "company": "Masabi",
+      "position": "Senior Frontend Engineer",
+      "startDate": "2016-10-01",
+      "endDate": "2019-11-01",
+      "highlights": [
+        "Developed an analytics/visualisation UI, realtime telemetry and device health dashboard, bulk records processing interfaces and many more features",
+        "Lead migration of product from AngularJS to Vue without needing any roadmap downtime",
+        "Worked closely with the design team to build a design system and component library to make prototyping and iteration faster and more consistent",
+        "Coach an intermediate frontend engineer and QA analyst that is pursuing becoming a frontend engineer",
+        "All of the above happened while the company grew from serving a handful of transport agencies to more than 70 without needing to increase the headcount until this year"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "startDate": "2006-01-01",
+      "summary": "I always seem to come across unique opportunities to try new technologies and get paid to do it",
+      "highlights": [
+        "Create several informational/utility mobile apps for provincial Midwife organisations to assist in the diagnosis and treatment of their clients",
+        "Create several mobile and progressive web apps for interactive real estate development showroom displays"
+      ]
+    },
+    {
+      "company": "ACL Services",
+      "position": "Senior UX Developer",
+      "startDate": "2016-03-01",
+      "endDate": "2016-09-01",
+      "summary": "ACL Services (now Galvanize) develops a SaaS platform for the governance, risk management and compliance industry.",
+      "highlights": [
+        "Developed configurable KPI visualisation and alerting functionality in the analytics product",
+        "Worked closely with the design team on the companies internal design system and component library"
+      ]
+    },
+    {
+      "company": "Anow",
+      "position": "Senior Full Stack Software Developer",
+      "startDate": "2014-05-01",
+      "endDate": "2016-03-01",
+      "summary": "Anow is a SaaS platform that provides an all-in-one solution for real estate appraisal/valuation businesses.",
+      "highlights": [
+        "Developed CRM, invoicing, notifications, booking management features using AngularJS and .NET",
+        "Introduced agile methodologies, automated builds, git workflow, code reviews etc... to the development team",
+        "Lead hiring of 2 additional developers as the company went from launch to first few hundred thousand in revenue"
+      ]
+    },
+    {
+      "company": "Electronic Arts",
+      "position": "Frontend Software Developer (Contract)",
+      "startDate": "2013-05-01",
+      "endDate": "2014-05-01",
+      "highlights": [
+        "Built highly interactive Dragon Age franchise website which included a custom navigable game world map, user comments, character bios and many other features",
+        "Worked on several other franchise websites including Dawn Gate, Fifa World, Sims and internal productivity tools",
+        "Introduced automated performance testing, increased unit test coverage and ran weekly cross-team frontend engineering meeting"
+      ]
+    },
+    {
+      "company": "ISL",
+      "position": "Web Developer",
+      "startDate": "2012-03-01",
+      "endDate": "2013-05-01",
+      "highlights": [
+        "Built websites many small to medium-sized businesses using HTML5, CSS3 and jQuery and in-house content management system",
+        "Developed photo gallery feature for the in-house CMS product"
+      ]
+    },
+    {
+      "company": "Blast Radius",
+      "position": "Interface Developer",
+      "startDate": "2010-10-01",
+      "endDate": "2011-11-01",
+      "highlights": [
+        "Developed mobile web UI for Bacardi True Originals which was a sponsored social network for bartenders based around a series of competitions",
+        "Maintained and updated content features for the Nike Golf website",
+        "Built boilerplate template to create highly interactive websites for Jordan brand shoe releases along with the websites using this template, several of these won FWA awards"
+      ]
+    },
+    {
+      "company": "Venture Communications",
+      "position": "Web Developer",
+      "startDate": "2008-02-01",
+      "endDate": "2009-06-01",
+      "highlights": [
+        "Developed several websites using HTML, CSS, PHP, Flash and Javascript for companies of varied size"
+      ]
+    },
+    {
+      "company": "Ground Level Design/Rare Method",
+      "position": "Flash Developer",
+      "startDate": "2006-05-01",
+      "endDate": "2008-02-01",
+      "highlights": [
+        "Developed several websites, applications and in-browser games using Flash and PHP"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Southern Alberta Institute of Technology",
+      "studyType": "New Media Production and Design",
+      "startDate": "2004-08-27",
+      "endDate": "2006-04-20"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Development",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "Vue",
+        "Angular 1 - 8",
+        "Node.js",
+        "Mocha/Chai/Sinon",
+        "Jasmine/Karma",
+        "Jest",
+        "AWS",
+        "Firebase"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Ongoing Maker Projects",
+      "keywords": [
+        "Homebuilt 3D printer",
+        "Automatic cocktail dispensing machine",
+        "Automated tiny single vessel home beer brewery",
+        "General electronics and microcontroller projects"
+      ]
+    },
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Hiking",
+        "Camping",
+        "Fly Fishing"
+      ]
+    }
+  ]
+}
